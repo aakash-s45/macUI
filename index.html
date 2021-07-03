@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="screen">
+            <div class="apple" onclick="show('p1')"></div>
+            <div class="topbar"><img src="img/topbar.png" alt="top-bar">
+                <div class="time text" id="time" style="cursor:default" onclick="show('p2')"></div>
+            </div>
+            <div class="backg"></div>
+            <div class="outer-border">
+                <div class="window-pref blur-light text">
+                    <ul>
+                        <li>About This Mac</li>
+                        <hr>
+                        <li><br></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pref" id="p1"><img src="img/systempreff.png" alt="prefrences">
+                <div class="about options" onclick="show('specs')"></div>
+            </div>
+            <div class="work-area">
+                <div class="control" id="p2"><img src="img/Sidepanel.png" alt="panel">
+                    <div id="clockContainer">
+                        <span class="dot"></span>
+                        <div id="hour"></div>
+                        <div id="minute"></div>
+                        <div id="second"></div>
+                    </div>
+                </div>
+                <div class="specs" id="specs"><img src="img/about.png" alt="image"></div>
+            </div>
+            <div class="dock-area">
+                <div class="dock blur-dark">
+                    <div class="prog"><img src="icon/Finder.png" alt="finder"></div>
+                    <div class="prog"><img src="icon/Calendar.png" alt=""></div>
+                    <div class="prog"><img src="icon/Maps.png" alt=""></div>
+                    <div class="prog"><img src="icon/Mail.png" alt=""></div>
+                    <div class="prog"><img src="icon/Safari.png" alt=""></div>
+                    <div class="prog"><img src="icon/Calculator.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
