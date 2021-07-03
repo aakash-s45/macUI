@@ -183,6 +183,7 @@ hr{
 
 
 #clockContainer {
+    visibility: hidden;
     display: inline-block;
     background-image: url('img/clock.png');
     background-repeat: no-repeat;
