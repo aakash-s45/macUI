@@ -76,8 +76,8 @@ hr{
     height: 100vh;
     right: 0px;
     top: 0px;
-    animation-name: slide;
-    animation-duration: 0.4s;
+    /* animation-name: slide; */
+    /* animation-duration: 0.4s; */
     
 }
 .blur-dark{
@@ -127,7 +127,8 @@ hr{
 }
 .about{
     position: absolute;
-    top: 7vh;
+    /* background: red; */
+    top: 5vh;
     left: 1vw;
 }
 .pref img{
@@ -138,6 +139,7 @@ hr{
     left: -14px;
 }
 .specs{
+    /* visibility: visible; */
     visibility: collapse;
     position: fixed;
     top: 25vh;
